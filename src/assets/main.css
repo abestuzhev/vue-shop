@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: rgb(247 254 231);
+}
+.dark {
+  --bg-color: #111827;
+  --text-color: #f9fafb;
+  --card-bg: #1f2937;
+  --card-border: #374151;
+  --button-bg: #60a5fa;
+  --button-text: #111827;
+  --header-bg: #1f2937;
+  --footer-bg: #111827;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+
